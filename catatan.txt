@@ -1,0 +1,14 @@
+alert = menampilkan form di html (popup)
+promp = 
+loop = 
+coment = ctrl + /
+prompt = memasukkan nilai sesuatu
+const = variabel yang tidak dapat dirubah berbeda dengan var & let
+var & let = dapat ditimpa ke data yang baru
+    array
+index = urutan
+shift = menghapus awal
+pop menghapus akhir
+length = jumlah data dari sebuah array
+while => mencari kondisi dahulu baru eksekusi
+do => mencari eksekusi 1x baru cek kondisi
