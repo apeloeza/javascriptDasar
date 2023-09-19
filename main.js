@@ -15,12 +15,14 @@
 // let beratBadan
 // let pacar = null
 // beratBadan = 50
+
 //? pengkondisian
 // if(pacar == null){
 //     pacar = 'belum punya'
 // }else{
 //     pacar = 'udah punya'
 // }
+
 // switch(pacar){
 //     case 1:
 //         pacar = "punya 1 aja"
@@ -106,9 +108,10 @@
 
 //? Soal
 /*
-prompt untuk mengetahui saldo terakhir dari apa yang diinputkan user
+1. prompt untuk mengetahui saldo terakhir dari apa yang diinputkan user
 2. menentukan hari dan tanggal yang ada saat ini di pc kalian
 */
+// jawaban nomer 1
 const saldoPertama = prompt('masukkan saldo anda?')
 console.log(saldoPertama)
 const saldoTambahan = prompt('masukkan bonus')
@@ -116,6 +119,16 @@ totalSaldo = parseInt(saldoPertama) + parseInt(saldoTambahan)
 
 alert(`saldo akhir nasabah adalah `+totalSaldo)
 
+// jawaban nomer 2
 const hari = new Date().toJSON().slice(0,10)
 console.log(hari)
 alert( 'tanggal hari ini adalah = ' + hari)   
+
+let i = 0
+while (i=10){
+    i++
+    console.log('Arif rahman')
+}
+do{
+    console.error.log(' Arif')
+}while(i=20)
