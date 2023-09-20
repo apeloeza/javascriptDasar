@@ -17,3 +17,5 @@ contat = menggabungkan dua atau lebih array menjadi satu array baru
 map = untuk membuat array baru dari memanggil sebuah function pada setiap elemen array
 short = digunakan untuk menyortir array objek menggunakan fungsi bandingkan
 filter = mencari semua elemen di dalam array yang sesuai di kriteria tertentu
+append = metode yang ada dalam objek Document pada JavaScript
+querySelector = akan mengambil satu elemen saja
