@@ -19,3 +19,8 @@ short = digunakan untuk menyortir array objek menggunakan fungsi bandingkan
 filter = mencari semua elemen di dalam array yang sesuai di kriteria tertentu
 append = metode yang ada dalam objek Document pada JavaScript
 querySelector = akan mengambil satu elemen saja
+looping ===========
+for(statement 1 // statement2 // statement3)
+statement 1 = nilai awal dari variabel
+statement 2 = condition
+statement 3 = Effect (a++)
