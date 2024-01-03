@@ -1,3 +1,8 @@
+/*
+DOM adalah singkatan dari Document Object Model
+DOM untuk memanipulasi halaman website menjadi lebih dinamis
+*/
+
 document.title // titik untuk masuk kedalam datanya
 console.log(document.title)
 document.title = 'MANTAP JAVASCRIPT'
