@@ -1,0 +1,51 @@
+dasar pemrograman
+    belajar teliti, disiplin & berfikir abstrak. mengubah komputer menjadi alat powerfull. membentuk polapikir komputasional.
+    sumber : web programing unpas
+    Pemrograman adalah suatu cara dalam membuat satu atau menghubungkan lebih dari satu algoritma dengan menggunakan suatu bahasa pemrograman tertentu sehingga menjadi suatu program komputer. Ada banyak bahasa pemrograman yang dapat digunakan seperti bahasa C, C++, Java, Phyton, dan lain-lain. Setiap bahasa memiliki gaya yang berbeda-beda dalam penggunaannya sehingga memiliki gaya pemrograman yang berbeda pula. Gaya pemrograman ini biasa disebut dengan paradigma pemrograman. Orang yang pandai atau yang menggunakan bahasa pemrograman sering disebut seorang Pemrogram atau Programmer.
+    sumber : telkom.upi.edu
+
+Pemrograman
+    program adalah kumpulan dari intruksi
+
+bahasa pemrograman
+    komunikasi dari manusia ke mesin, penulisan dengan plain text (sublime, vs code, notepad)
+
+compiler vs interpreter
+    Compiler adalah software komputer yang mengubah kode sumber (source code) program dalam bahasa pemrograman menjadi kode objek atau bahasa mesin
+    Interpreted artinya kode pemrograman ditranslasikan atau dijalankan melalui interpreter tanpa perlu dicompile. Contoh dari bahasa ini adalah Python, Ruby
+
+kenapa memilih JavaScript
+    karena gratis, tidak perlu proses instalasi, interpreter js di web,
+    javascript spesific di bahasa web, scripting language, js memiliki kategori untipe, js dijalankan dengan interpreter
+
+sejarah js
+    ncsa fasilitas web browser pertama mosaic => browser paling populer saat itu, brendan elch = membuat bahasa java+scheme+self = mocha(10 hari), mocha = liveScript (menjadi browser yang paling keren )
+    netscape + sun ingin mengalahkan microsoft, javascript + jsscript + ecmaScript adalah satu bahasa
+    sumber : https://www.youtube.com/watch?v=G4LEU-NtQUg&list=PLFIM0718LjIWXagluzROrA-iBY9eeUt4w&index=6&pp=iAQB
+
+lingkungan pengembangan javascript
+    dengan web browser sudah support javascript, dengan menggunakan console
+    console, dengan google + open + ctrl+shift+j akan tampil console
+    html
+    dengan mengisi javascript didalam script => <script> isi <script>
+
+tipedata javascript
+    number, string,   boolean,  object,     function,   undefined
+    10      'helo'    true      variabel    block           tidak ditemukan
+    -1500   'eloe'    false     mengandung  code
+    3,14    'whadaw'            nilai
+
+Angka = number = floating point = tidak ada pecahan
+    - number/ angka tidak integer/ bilangan bulat, NaN= not a number, 2/ 0 = infinity, -2/0 = -infinity
+    - angka tanpa decimal = 10, 1500, 12357, jika angka tanpa decimal akurat sampai 15 digit
+    - angka dengan desimal :  2.3, 0.5, 2.4343, untuk decimal jangan pakai koma : 2.3, 3.2
+    - eksponen : 123e5 // 12300000, 123e-5 : 0.00123
+        
+Aritmatika, penugasan, & perbandingan
+    Operator = sebuah simbol untuk meklakukan operasi, operator terbagi => ( aritmatika, penugasan, perbandingan, logika, string) = binary, (kondisional, typeof) = ternary & unary, binary menumbuhkan 2 operand dimana = operand1 operan operad2, unary membutuhkan 1 operand => ternary = operator operand / operand operator, ternary membutuhkan 3 operand
+    aritmatika = (+, -, *, /, % = modulo)
+        open console di firefox (ctrl+shift+k) praktek aritmatika(run)
+    operator precedence = urutan operasi matematika => KuKaBaTaKu = kurung, kali, bagi, tambah, kurang
+    operator penugasan = x += y => x=x+y (berlakuuntuk semua penjumlahan)
+    operator perbandingan/ corparasi => ==, !=, ===, !==, >, <, >=, <= (menghasilkan nilai boolean) contoh : 3 < 4 => true
+    Operator / Logika => &&(and), ||(or), !(not). contoh : ( x % 3 == 0) => true , (x %w == 0)||(x<10), & 

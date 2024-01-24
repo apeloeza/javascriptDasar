@@ -1,0 +1,58 @@
+==> Home 1.1
+
+Kecepatan Belajar
+
+Dalam tutorial ini, kecepatan belajar adalah pilihan Anda.
+
+Semua terserah padamu.
+
+Jika Anda kesulitan, istirahatlah, atau baca kembali materinya.
+
+Selalu pastikan Anda memahami semua contoh "Coba Sendiri".
+
+Satu-satunya cara untuk menjadi programmer yang pandai adalah dengan: Berlatih. Praktik. Praktik. Kode. Kode. Kode!
+
+Pertanyaan Umum 
+
+    Bagaimana cara mendapatkan JavaScript?
+    Di mana saya bisa mengunduh JavaScript?
+    Apakah JavaScript Gratis?
+
+Anda tidak perlu mendapatkan atau mengunduh JavaScript.
+
+JavaScript sudah berjalan di browser Anda di komputer, di tablet, dan di ponsel pintar Anda.
+
+JavaScript gratis digunakan oleh semua orang.
+
+==> Pengenalan JavaScript 1.2
+
+JS dapat mengubah kontent html
+Salah satu dari banyak metode JavaScript HTML adalah getElementById().
+
+Contoh di bawah ini "menemukan" elemen HTML (dengan id="demo"), dan mengubah konten elemen (innerHTML) menjadi "Halo JavaScript":
+catatan = JS menerima kutip ganda (") dan tunggal (')
+
+JS Dapat mengubah nilai atribut HTML
+Dalam contoh ini JavaScript mengubah nilai atribut src(sumber) dari sebuah <img>tag
+
+==> seperti apa JS 1.3
+
+Tag <skrip>
+
+Dalam HTML, kode JavaScript disisipkan di antara tag <script>dan </script>.
+
+Fungsi dan event JavaScript
+
+JavaScript function adalah blok kode JavaScript, yang dapat dieksekusi ketika "dipanggil".
+Misalnya, suatu fungsi dapat dipanggil ketika suatu peristiwa terjadi, seperti ketika pengguna mengklik sebuah tombol.
+
+JavaScript di <head> atau <body>
+
+Anda dapat menempatkan sejumlah skrip dalam dokumen HTML.
+Skrip dapat ditempatkan di <body>, atau di <head>bagian halaman HTML, atau di keduanya.
+
+JavaScript di <head>
+
+Dalam contoh ini, JavaScript functionditempatkan di <head>bagian halaman HTML.
+
+Fungsi ini dipanggil (dipanggil) ketika sebuah tombol diklik:

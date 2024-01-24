@@ -1,11 +1,23 @@
 <html>
     <body>
-        <h2>what can javascript do?</h2>
+        <!-- 1.2 -->
+        <h2> Apa yang dapat dilakukan javascript?</h2>
+        <p id = "demo" > javascript dapat merubah kontent HTML. </p>
+        <button type="button" onclick='document.getElementById("demo").innerHTML = "Hallo Javascript! " '>klik saya!</button>
+        <p> klik button diatas ini akan berubah menjadi halo javascript</p>
+        <button type='button' onclick='document.getElementById("demo").innerHTML = "javascript dapat merubah kontent HTML" '>kembali semula</button>
 
-        <h2>sample 2</h2>
-        <h3>merubah lampu</h3>
-        <button onclick="document.getElementById('myImage').src='lampu_mati.jpg' ">Turn on the light</button>
-        <img id="myImage" src="lampu_mati.jpg" style="width: 100px;">
-        <button onclick="document.getElementById('myImage').src">Turn off the light</button>
+        <h2>apa yang js bisa lakukan ?</h2>
+        <p>JS bisa merubah nilai atribut HTML</p>
+        <p>dalam hal ini, Javascript merubah nilai atribut src (sumber) suatu gambar</p>
+        <button onclick="document.getElementById('myImage').src='myImage/lampu-menyala.jpg' ">Turn on the light</button>
+        <img id="myImage" src="myImage/lampu-mati.jpg" style="width: 100px;">
+        <button onclick="document.getElementById('myImage').src='myImage/lampu-mati.jpg' ">Turn off the light</button>
+    
+        <!-- 1.3 -->
+        <script>document.getElementById("demo").innerHTML = "My second Javascript"</script>
+        
+        
+    
     </body>
 </html>
