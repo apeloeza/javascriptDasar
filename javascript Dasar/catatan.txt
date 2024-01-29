@@ -29,11 +29,32 @@ lingkungan pengembangan javascript
     html
     dengan mengisi javascript didalam script => <script> isi <script>
 
-tipedata javascript
+tipe data javascript
     number, string,   boolean,  object,     function,   undefined
     10      'helo'    true      variabel    block           tidak ditemukan
     -1500   'eloe'    false     mengandung  code
     3,14    'whadaw'            nilai
+
+    string javascript
+        string untuk menampilkan data tekstual
+        dimana penggunaan kutip 2 dan 2 contoh => "arif"+' ayo belajar' jika ingin menampilkan kutip di string gunakan escape, contoh => " jum\'at " (praktek di console), 
+        concatenation/ konkatenasi
+            penggunaan dengan '==' contoh 'arif suka belajar' == 'Arif Suka Belajar' => false
+        .length
+            dan juga .length = menghitung panjang dari sebuah string dengan contoh 'arif suka belajar'.length => 17 (praktek di console)
+
+    boolean javascript
+        mempresentasikan logika true dan false, digunakan pada statment pengkondisian, contoh var x = 2 => x %2 ==0 => true, 'arif'=='Arif' => false
+variabel
+    tempat/wadah untuk menyimpan nilai, nilainya bermacam", sebelum itu pahami deklarasi, inisialisasi, & assigment
+    deklarasi => mendaftarjan variabel kedalam lingkup yang sesuai
+    inisialisasi => menyediakan memori untuk variabel
+    asigment => menetapkan nilai yang spesifik ke dalam variabel
+    contoh => var x; // deklarasi & inisialisasi
+                x = 20; // asigment
+        deklarasi variabel => var, let, const
+            variabel => var <nama variabel> contoh : var x, dan penamaan tidak boleh ada spasi dan angka didepan nama variabel, dan juga kenali keyword yng tidak boleh dipakai, 
+        shorthand => var nama = 'arif', umur=26, lulus=true
 
 Angka = number = floating point = tidak ada pecahan
     - number/ angka tidak integer/ bilangan bulat, NaN= not a number, 2/ 0 = infinity, -2/0 = -infinity
@@ -41,11 +62,39 @@ Angka = number = floating point = tidak ada pecahan
     - angka dengan desimal :  2.3, 0.5, 2.4343, untuk decimal jangan pakai koma : 2.3, 3.2
     - eksponen : 123e5 // 12300000, 123e-5 : 0.00123
         
-Aritmatika, penugasan, & perbandingan
-    Operator = sebuah simbol untuk meklakukan operasi, operator terbagi => ( aritmatika, penugasan, perbandingan, logika, string) = binary, (kondisional, typeof) = ternary & unary, binary menumbuhkan 2 operand dimana = operand1 operan operad2, unary membutuhkan 1 operand => ternary = operator operand / operand operator, ternary membutuhkan 3 operand
+Operator => Aritmatika, penugasan, & perbandingan
+    Operator => sebuah simbol untuk meklakukan operasi, operator terbagi => ( aritmatika, penugasan, perbandingan, logika, string) = binary, (kondisional, typeof) = ternary & unary, binary menumbuhkan 2 operand dimana = operand1 operan operad2, unary membutuhkan 1 operand => ternary = operator operand / operand operator, ternary membutuhkan 3 operand
     aritmatika = (+, -, *, /, % = modulo)
         open console di firefox (ctrl+shift+k) praktek aritmatika(run)
-    operator precedence = urutan operasi matematika => KuKaBaTaKu = kurung, kali, bagi, tambah, kurang
-    operator penugasan = x += y => x=x+y (berlakuuntuk semua penjumlahan)
-    operator perbandingan/ corparasi => ==, !=, ===, !==, >, <, >=, <= (menghasilkan nilai boolean) contoh : 3 < 4 => true
-    Operator / Logika => &&(and), ||(or), !(not). contoh : ( x % 3 == 0) => true , (x %w == 0)||(x<10), & 
+        operator precedence = urutan operasi matematika => KuKaBaTaKu = kurung, kali, bagi, tambah, kurang
+    operator penugasan = x += y => x=x+y 
+        (berlakuuntuk semua penjumlahan)
+    operator perbandingan
+        perbandingan / corparasi => ==, !=, ===, !==, >, <, >=, <= (menghasilkan nilai boolean) contoh : 3 < 4 => true
+    
+Operatur logika, string, typeof dan kondisional
+    operator logika => &&, ||, !
+        Operator / Logika => &&(and), ||(or), !(not). contoh : 
+        x=3 => ( x % 3 == 0) => true , (x % 2 == 0)||(x<10) => true , & (x % 2 == 0)||(x<10) => false. jika (&& akan true jika ke 2 value sama true ) jika (|| akan false jika ke 2 value sama false)
+        (praktek dengan console) ==> (x % 2 == 0), (x & 2 == 0) && (x < 10), (x % 2 == 0) || ( x < 10 )
+    operator string "+"
+        a = "aku", b = "suka", a + b = 'akusuka', 2+3+"10" = '510'
+    operator tipeof
+        mendekskripsikan untuk mengetahui tipe data apa dari nilai yang kita masukkan, contoh typeof(10) => 'number', typeof(true) => bolean
+    operator kondisional
+        (kondisi) ? benar : salah, contoh (x %2 == 0)? "genap" : "ganjil" => genap. (praktek di console log)
+
+Control flow => lebih dari 1 statement, dieksekusi atas ke bawah/ kiri ke kanan, control flow terbagi menjadi pengulangan & pengkondisian
+    pengulangan = > loop/iteration, pengulangan dalam suatu statement,(do, while, do while), pengulangan seperti menampilkan print yang sama berkali" seperti contoh print hello world
+    while(kondisi){
+        aksi
+    }
+
+    pengkondisian/ percabangan => if, else if, else, switch. 
+    contoh: var angka = prompt('masukan angka :');
+            if (angka % 2 === 0){
+                alert(angka + 'bilangan genap);
+            }else{
+                alert(angka + 'bilangan ganjil);
+            }
+    
