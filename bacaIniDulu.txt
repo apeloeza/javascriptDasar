@@ -1,0 +1,12 @@
+modul pembelajarannya
+
+dimulai dari :
+djavascript dasar
+djavascript array
+djavascript DOM
+djavascript function
+djavascript loop 1 & 2
+djavascript asyncronus
+
+lanjut ke react, 
+

@@ -79,14 +79,14 @@
 //     console.log('nama saya Arif')
 // }
 //? maping
-//let namaGuru = ['jodi','bunga','intan']
-// for (let i = 0; i <namaGuru.length; i++){
+// let namaGuru = ['jodi','bunga','intan']
+// console.log(namaGuru[2])
+// for (let i = 0; i < namaGuru.length; i++){
 //     console.log(namaGuru[i])
 // }
 //? do while
 // let i = 10
-// while (i<10){
-//     i++
+// while (i<10, i++){
 //     console.log('Arif rahman')
 // }
 // do{
@@ -95,16 +95,16 @@
 //? do
 // let i = 10
 // do{
-//     i++
+//     i++ 
 //     console.log('arif rahman')
 // }while(i<10)
 
 //?while
-// let j = 10
-// while (1<10){
-//     j++
-//     console.log('arif rahman')
-// }
+let j = 10
+while (j=9){ // kondisi
+    j++
+    console.log('arif rahman')
+}
 
 //? Soal
 /*
@@ -112,23 +112,23 @@
 2. menentukan hari dan tanggal yang ada saat ini di pc kalian
 */
 // jawaban nomer 1
-const saldoPertama = prompt('masukkan saldo anda?')
-console.log(saldoPertama)
-const saldoTambahan = prompt('masukkan bonus')
-totalSaldo = parseInt(saldoPertama) + parseInt(saldoTambahan)
+// const saldoPertama = prompt('masukkan saldo anda?')
+// console.log(saldoPertama)
+// const saldoTambahan = prompt('masukkan bonus')
+// totalSaldo = parseInt(saldoPertama) + parseInt(saldoTambahan)
 
-alert(`saldo akhir nasabah adalah `+totalSaldo)
+// alert(`saldo akhir nasabah adalah `+totalSaldo)
 
-// jawaban nomer 2
-const hari = new Date().toJSON().slice(0,10)
-console.log(hari)
-alert( 'tanggal hari ini adalah = ' + hari)   
+// // jawaban nomer 2
+// const hari = new Date().toJSON().slice(0,10)
+// console.log(hari)
+// alert( 'tanggal hari ini adalah = ' + hari)   
 
-let i = 0
-while (i=10){
-    i++
-    console.log('Arif rahman')
-}
-do{
-    console.error.log(' Arif')
-}while(i=20)
+// let i = 0
+// while (i=10){
+//     i++
+//     console.log('Arif rahman')
+// }
+// do{
+//     console.error.log(' Arif')
+// }while(i=20)

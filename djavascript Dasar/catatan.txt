@@ -4,12 +4,13 @@ coment = ctrl + /
 prompt = memasukkan nilai sesuatu /sebuah inputan dari alert(pop up)
 const = variabel yang tidak dapat dirubah berbeda dengan var & let
 var & let = dapat ditimpa ke data yang baru
-array = 
+array = kumpulan data dalam satu variabel
 index = urutan
 shift = menghapus awal
-pop menghapus akhir
+pop = menghapus akhir
 length = jumlah data dari sebuah array
-while => mencari kondisi dahulu baru eksekusi
+kondisi = ketetapan yang bernilai true or false 
+while => mencari kondisi(true) dahulu baru eksekusi (jika kondisi true akan diulang kembali)
 do => mencari eksekusi 1x baru cek kondisi
 includes = mengetahui apakah array mengandung nilai (true/false)
 indexof() = nilai array ke ()

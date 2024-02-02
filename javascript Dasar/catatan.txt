@@ -35,16 +35,16 @@ tipe data javascript
     -1500   'eloe'    false     mengandung  code
     3,14    'whadaw'            nilai
 
-    string javascript
-        string untuk menampilkan data tekstual
-        dimana penggunaan kutip 2 dan 2 contoh => "arif"+' ayo belajar' jika ingin menampilkan kutip di string gunakan escape, contoh => " jum\'at " (praktek di console), 
-        concatenation/ konkatenasi
-            penggunaan dengan '==' contoh 'arif suka belajar' == 'Arif Suka Belajar' => false
-        .length
-            dan juga .length = menghitung panjang dari sebuah string dengan contoh 'arif suka belajar'.length => 17 (praktek di console)
+string javascript
+    string untuk menampilkan data tekstual
+    dimana penggunaan kutip 2 dan 2 contoh => "arif"+' ayo belajar' jika ingin menampilkan kutip di string gunakan escape, contoh => " jum\'at " (praktek di console), 
+    concatenation/ konkatenasi
+        penggunaan dengan '==' contoh 'arif suka belajar' == 'Arif Suka Belajar' => false
+    .length
+        dan juga .length = menghitung panjang dari sebuah string dengan contoh 'arif suka belajar'.length => 17 (praktek di console)
 
-    boolean javascript
-        mempresentasikan logika true dan false, digunakan pada statment pengkondisian, contoh var x = 2 => x %2 ==0 => true, 'arif'=='Arif' => false
+boolean javascript
+    mempresentasikan logika true dan false, digunakan pada statment pengkondisian, contoh var x = 2 => x %2 ==0 => true, 'arif'=='Arif' => false
 variabel
     tempat/wadah untuk menyimpan nilai, nilainya bermacam", sebelum itu pahami deklarasi, inisialisasi, & assigment
     deklarasi => mendaftarjan variabel kedalam lingkup yang sesuai
@@ -84,17 +84,47 @@ Operatur logika, string, typeof dan kondisional
     operator kondisional
         (kondisi) ? benar : salah, contoh (x %2 == 0)? "genap" : "ganjil" => genap. (praktek di console log)
 
-Control flow => lebih dari 1 statement, dieksekusi atas ke bawah/ kiri ke kanan, control flow terbagi menjadi pengulangan & pengkondisian
-    pengulangan = > loop/iteration, pengulangan dalam suatu statement,(do, while, do while), pengulangan seperti menampilkan print yang sama berkali" seperti contoh print hello world
-    while(kondisi){
-        aksi
-    }
+pop up => dialog box = agar memudahkan user untuk berinteraksi, ada 3 pop up yang kita harustau yaitu ( alert, prompt, confirm )
 
-    pengkondisian/ percabangan => if, else if, else, switch. 
-    contoh: var angka = prompt('masukan angka :');
-            if (angka % 2 === 0){
-                alert(angka + 'bilangan genap);
-            }else{
-                alert(angka + 'bilangan ganjil);
+Control flow => lebih dari 1 statement, dieksekusi atas ke bawah/ kiri ke kanan, control flow terbagi menjadi pengulangan & pengkondisian
+
+    pengulangan = > loop/iteration, pengulangan dalam suatu statement,(do, while, do while), pengulangan seperti menampilkan print yang sama berkali" seperti contoh print hello world
+        while = pengulangan dan harus bernilai true    
+            while(kondisi){  // unutk kondisi bernilai true
+                aksi         // lakukan aksi dalam blok {}
             }
-    
+            while => memudahkan perulangan contoh
+            Pengulangan => menampilkan print 10 hello world? 
+            while (praktek)
+        for = tidak jauh berbeda dari while
+            for(var nilai= 1; nilai<=10; nilai++){   // kondisi 
+                console.log('halo-halo')             // Aksi
+            }
+
+    pengkondisian/ percabangan =>   (if, else if, else, switch. )
+        if = jika dengan nilai true
+        else = yang lain dengan nilai false
+            contoh: var angka = prompt('masukan angka :');
+                    if (angka % 2 === 0){                 // if (kondisi n){}
+                        alert(angka + 'bilangan genap);  // aksi n (bernilai true)
+                    }else{
+                        alert(angka + 'bilangan ganjil);  // aksi default (bernilai false)
+                    } (praktek)
+            case: var angka = parseInt(pronpt('masukkan angka :)); // perseInt = membuat input angka menjadi integer 
+                  if(angka === 1){                                 // dikarenakan input akan menjadi string 
+                  }else{                                           // bisa juga dirubah === menjadi == agar terbaca string
+                    alert('angka yang dimasukkan salah');
+                  }
+
+        switch => hampir sama dengan if else namun yang membedakan yaitu break
+            switch(ekspresi){
+                case "nilai 1": akse 1 [break;]
+                case "nilai 2": akse 2 [break;]
+                default: aksi default [break;]
+            }
+
+        
+                                        
+    jika ingin langsung buka index.html di browser ikuti step dibawah
+    sumber : https://id.wikihow.com/Menjalankan-Berkas-HTML-di-Visual-Studio-Code
+
