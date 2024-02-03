@@ -23,6 +23,24 @@
 //     pacar = 'udah punya'
 // }
 
+// const c = 1
+// if(c >= 2){
+//     console.log('data sama')
+// }else{
+//     console.log('data salah')
+// }
+
+// if(kondisi){aksi}
+
+// let d = prompt('masukan piihan paslon mu')
+// if( d==1 ){
+//     alert('anda memilih paslon agamis')
+// }else if(d==2){
+//     alert('anda memilih paslon liberalis')
+// }else{
+//     alert('anda memilih paslon patritis')
+// }
+
 // switch(pacar){
 //     case 1:
 //         pacar = "punya 1 aja"
@@ -33,6 +51,24 @@
 //     default:
 //         pacar = "belum punya pacar"
 //         break
+// }
+
+//! switch tidak bisa pake operator
+
+// let paslon = prompt('pilih nomer paslon mu 1,2, atau 3:')
+// switch(paslon){
+//     case 1:
+//         paslon = alert('anda memilih 1')
+//         break
+//     case 2:
+//         paslon = alert('anda memilih 2')
+//         break
+//     case 3:
+//         paslon = alert('anda memilih 3')
+//         break
+//     default:
+//         paslon = alert('anda keliru')
+//         break 
 // }
 
 // let saldoAwal = 5000
@@ -69,11 +105,36 @@
 // alert(namaGuru2)
 // console.log(namaGuru.length)
 
+// let nama_ayam = []
+// nama_ayam[0] = "leve"
+// nama_ayam[1] = "bangkay"
+// nama_ayam.push('hael','aica','bian')
+// nama_ayam.shift() //menghilangkan data paling awal
+// nama_ayam.pop() //menghilangkan data paling akhir
+// console.log(nama_ayam)
+
 //? for loop
 // console.log('nama saya arif')
 // console.log('nama saya arif')
 // console.log('nama saya arif')
 // console.log('nama saya arif')
+
+// for (let a = 1; a <=100; a = a + 1){
+//     console.log('nama arif')
+// }
+
+// let kelasPenuh = 5
+// for(murid = 1; murid <= kelasPenuh; murid++){
+//     console.log('murid masuk kelas')
+// }if(murid >= 6){
+//     console.log('murid tidak bisa masuk')
+// }
+// let data = prompt('masukan nilai pertama')
+// let data2 = prompt('masukan nilai ke 2')
+// if(penjumlahan =data+data2){
+//     alert('hasil dari penjumlahan adalah ')
+// }
+
 //? statement
 // for(let i = 0; i <= 10; i = i + 1){
 //     console.log('nama saya Arif')
@@ -100,11 +161,11 @@
 // }while(i<10)
 
 //?while
-let j = 10
-while (j=9){ // kondisi
-    j++
-    console.log('arif rahman')
-}
+// let j = 10
+// while (j=9){ // kondisi
+//     j++
+//     console.log('arif rahman')
+// }
 
 //? Soal
 /*
